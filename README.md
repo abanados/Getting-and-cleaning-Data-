@@ -1,5 +1,5 @@
 # Getting-and-cleaning-Data-
-The course proyect include a script called run_analysis.R that does the following:
+The course proyect include a script called run_analysis.R, and after loading the data set "UCI HAR Dataset" the following steps were performed:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
