@@ -26,5 +26,14 @@ average of each variable for each activity and each subject.
 
 TIDY DATA SET
 
-Finally in the script run_analysis.R we obteined two data set, the first one namely "tidydata"
-after complete the four first steps, and "datafinal" after going through all 5 steps of the course project.
+Finally in the script run_analysis.R we obteined two data set.
+
+- The first is "tidydata", who contains 10299 observations and 88 variables after complete the four first steps. 
+In this data the first column refers to each subject that did the experiment, column 2 to 87 are the feature variables
+(mean and std of the whole feature variables), the last column is refers to the activity that the subjects were doing, They are:
+WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+
+- The second data is "datafinal", who contains 180 observations and 88 variables after going through all 5 steps of the course project. 
+The first column is the subject id, second column is the activity and the rest are the average of each feature variables.
+
+
