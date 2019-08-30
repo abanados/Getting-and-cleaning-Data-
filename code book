@@ -1,0 +1,30 @@
+Getting and Cleaning Data Course Project
+
+#The project will use the data based on a Dataset (URI HAR Dataset) , which are:
+- x_train.txt
+- y_train.txt
+- subject_train.txt
+- x_test.txt
+- y_test.txt
+- subject_test.txt
+
+And use features.txt, and activity_labels.txt; the first contains the variable name of each column 
+of x_train.txt and x_test.txt, and the second contains desciptive names for each activity label, 
+which corresponds to each number in the y_train.txt and y_test.txt
+
+#The README.txt it includes the requirements that must be met to complete the project.
+
+After of creating the script "run_analysis.R" using the data.table package conteined in URI HAR Dataset, 
+the following steps must be completed:
+
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names.
+5. From the data set in step 4, creates a second, independent tidy data set with the 
+average of each variable for each activity and each subject.
+
+TIDY DATA SET
+
+Finally in the script run_analysis.R we obteined two data set, the first one namely "tidydata"
+after complete the four first steps, and "datafinal" after going through all 5 steps of the course project.
